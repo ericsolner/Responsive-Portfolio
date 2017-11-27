@@ -1,0 +1,519 @@
+        header {
+        position: fixed;
+        background: #ffffff;
+        width: 100%;
+        top: 0;
+        border-bottom-style: solid;
+        border-bottom-width: 3px;
+        border-bottom-color: #cccccc;
+        z-index: 3;
+    }
+
+    .headerbox {
+        height: 30px;
+        width: 250px;
+        background: #4aaaa5;
+        padding: 23px;
+        margin-left: 155px;
+        display: inline-block;
+        float: left;
+    }
+
+    #ericsolner {
+        color: white;
+        text-align: center;
+        vertical-align: middle;
+        line-height: 0px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
+    .headerlist {
+        color: #9c9f9f;
+    }
+
+    .headerlist ul {
+
+        margin: -11px;
+        position: relative;
+        display: inline-block;
+        float: left;
+        top: 37px;
+        left: 460px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        word-spacing: 20px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    a:visited {
+        color: #9c9f9f;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #9c9f9f;
+        text-decoration: none;
+    }
+
+    a:focus {
+        color: #9c9f9f;
+        text-decoration: none;
+    }
+
+    a:hover,
+    a:active {
+        color: #9c9f9f;
+        text-decoration: none;
+    }
+
+    .headerlist ul li a {
+
+        padding: 10px;
+        display: inline-block;
+        color: #9c9f9f;
+        line-height: 10px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    }
+
+    body {
+        background-image: url('../images/background.png');
+        margin: 0;
+    }
+
+    html body {
+        height: 100%;
+    }
+
+    .container {
+        width: 980px;
+        margin: 0 auto;
+        min-height: 100%;
+    }
+
+    .aboutmebox {
+        width: 50%;
+        height: 80%;
+        background: #ffffff;
+        margin-left: 155px;
+        margin-top: 180px;
+        padding-top: 15px;
+        border: 1px solid lightgrey;
+        box-sizing: inherit;
+        margin-bottom: -158px;
+    }
+
+    .contactbox {
+        width: 50%;
+        height: 80%;
+        background: #ffffff;
+        margin-left: 155px;
+        margin-top: 180px;
+        padding-top: 15px;
+        border: 1px solid lightgrey;
+        box-sizing: inherit
+    }
+
+    .portfoliobox {
+        width: 50%;
+        height: 80%;
+        background: #ffffff;
+        margin-left: 155px;
+        margin-top: 180px;
+        padding-top: 15px;
+        border: 1px solid lightgrey;
+        box-sizing: inherit;
+        margin-bottom: 40px;
+    }
+
+    hr {
+        color: #dddddd;
+        width: 92%;
+        border: solid 1.5px;
+    }
+
+    #aboutme {
+        color: #4aaaa5;
+        margin-left: 40px;
+        top: 0;
+    }
+
+    .Me-img {
+        margin: 25px;
+        float: left;
+        /*transform: rotate(90deg);*/
+        margin-top: 70px;
+    }
+
+
+
+
+    p {
+        color: #777777;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        line-height: 225%;
+        margin: 25px;
+    }
+
+    .contactbox form {
+        margin: 25px;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        color: #777777;
+    }
+
+    .contactbox form input[type="text"] {
+        font-size: 12px;
+        border: 1px solid lightgrey;
+        width: 96%;
+        padding: 10px;
+        margin: 5px 0 15px 0;
+    }
+
+    .contactbox form textarea[name="message"] {
+        width: 96%;
+        height: 65px;
+        border: 1px solid lightgrey;
+        margin: 5px 0 15px 0;
+        padding: 10px;
+    }
+
+    .contactbox form input[type=submit] {
+        background-color: #4aaaa5;
+        border: none;
+        color: white;
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+
+
+    .contactbox h1 {
+        margin: 25px 25px 10px 25px;
+        height: 60px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        color: #4aaaa5;
+    }
+
+    .portfoliobox .portfolio-img {
+        margin: 20px 25px;
+        display: inline-block;
+        position: relative;
+        left: 0;
+        right: 0;
+        width: 280px;
+    }
+
+    .portfoliobox .portfolio-img.inner-border {
+        margin-right: 9px;
+    }
+
+    .portfoliobox .portfolio-img img {
+        z-index: 1;
+        width: 100%;
+        height: 100%;
+    }
+
+    .portfoliobox .portfolio-img p {
+        z-index: 2;
+        margin: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        bottom: 15px;
+        text-align: center;
+        padding: 15px;
+        font-size: 24px;
+        background-color: #4aaaa5;
+        color: white;
+    }
+
+
+    #portfolioconnect {
+        float: right;
+        background-color: white;
+        height: 193px;
+        width: 273px;
+        border: 1px solid lightgrey;
+        margin-top: -1292px;
+        /*margin-right:265px;*/
+    }
+
+    #indexconnect {
+        float: right;
+        background-color: white;
+        height: auto;
+        width: auto;
+        border: 1px solid lightgrey;
+        margin-top: -445px;
+        /* margin-right: 265px; */
+    }
+
+
+    #contactconnect {
+        float: right;
+        background-color: white;
+        height: 193px;
+        width: 273px;
+        border: 1px solid lightgrey;
+        margin-top: -475px;
+        /*margin-right:265px;*/
+    }
+
+    #portfolioconnect h2 {
+        margin: 25px;
+        height: 45px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size: 22px;
+        text-align: center;
+        color: #4aaaa5;
+        border-bottom: 2px solid lightgrey;
+    }
+
+    #contactconnect h2 {
+        margin: 25px;
+        height: 45px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size: 22px;
+        text-align: center;
+        color: #4aaaa5;
+        border-bottom: 2px solid lightgrey;
+    }
+
+    #indexconnect h2 {
+        margin: 25px;
+        height: 45px;
+        font-family: 'Georgia', Times, Times New Roman, serif;
+        font-size: 22px;
+        text-align: center;
+        color: #4aaaa5;
+        border-bottom: 2px solid lightgrey;
+    }
+
+    #contactconnect .socialmedia img {
+        display: inline-block;
+        height: 60px;
+        margin: 5px;
+    }
+
+    #indexconnect .socialmedia img {
+        display: inline-block;
+        height: 60px;
+        margin: 5px;
+    }
+
+    #portfolioconnect .socialmedia img {
+        display: inline-block;
+        height: 60px;
+        margin: 5px;
+    }
+
+    #contactconnect .socialmedia {
+        margin: 25px;
+    }
+
+    #indexconnect .socialmedia {
+        margin: 25px;
+    }
+
+    #portfolioconnect .socialmedia {
+        margin: 25px;
+    }
+
+
+    .contactfooter {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 123px;
+        /* Height of the footer */
+        background: #666666;
+        border-top: 7px solid #4aaaa5;
+    }
+
+    .indexfooter {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 123px;
+        /* Height of the footer */
+        background: #666666;
+        border-top: 7px solid #4aaaa5;
+    }
+
+    .portfoliofooter {
+        position: absolute;
+        bottom: -297;
+        width: 100%;
+        height: 123px;
+        /* Height of the footer */
+        background: #666666;
+        border-top: 7px solid #4aaaa5;
+    }
+
+    footer p {
+        font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+        font-size: 12px;
+        color: lightgrey;
+        margin: 40px 0;
+        text-align: center;
+    }
+
+    @media screen and (max-width: 980px) {
+        .headerlist ul {
+            margin: -11px;
+            position: relative;
+            display: inline-block;
+            float: left;
+            top: 37px;
+            left: auto;
+            word-spacing: auto;
+        }
+        .headerbox {
+            height: auto;
+            width: auto;
+            background: #4aaaa5;
+            padding: auto;
+            margin-left: auto;
+            display: inline-block;
+            float: left;
+        }
+        .container {
+            width: auto;
+            margin: 0 auto;
+            min-height: 100%;
+        }
+        .contactfooter {
+            position: fixed;
+            margin-top: auto;
+        }
+        .indexfooter {
+            position: fixed;
+            margin-top: auto;
+        }
+        .portfoliofooter {
+            position: fixed;
+            margin-top: auto;
+        }
+    }
+    /* 
+ .headerlist moves left as screen width decreases 
+  */
+
+    @media screen and (max-width: 768px) {
+        .headerlist ul {
+            margin: -11px;
+            position: relative;
+            display: inline-block;
+            float: left;
+            top: 37px;
+            left: auto;
+            word-spacing: auto;
+        }
+        .headerbox {
+            height: auto;
+            width: auto;
+            background: #4aaaa5;
+            padding: auto;
+            margin-left: auto;
+            display: inline-block;
+            float: left;
+        }
+        .container {
+            width: auto;
+            margin: 0 auto;
+            min-height: auto;
+        }
+        .contactfooter {
+            position: fixed;
+            margin-top: auto;
+        }
+        .indexfooter {
+            position: fixed;
+            margin-top: auto;
+        }
+        .portfoliofooter {
+            position: fixed;
+            margin-top: auto;
+        }
+        #portfolioconnect {
+            float: none;
+            /*margin-top: auto;
+        margin-left:auto;
+        margin-right:auto;*/
+            margin: auto;
+        }
+
+        #indexconnect {
+            float: none;
+            margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+            /*margin:auto;*/
+        }
+
+
+        #contactconnect {
+            float: none;
+            margin-top: auto;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* 
+ .headerlist moves left as screen width decreases 
+
+  
+  */
+    }
+
+
+    @media screen and (max-width: 640px) {
+        .headerlist ul {
+            margin: -11px;
+            position: relative;
+            display: inline-block;
+            float: left;
+            top: 37px;
+            left: auto;
+            word-spacing: auto;
+        }
+        .headerbox {
+            height: auto;
+            width: auto;
+            background: #4aaaa5;
+            padding: auto;
+            margin-left: auto;
+            display: inline-block;
+            float: left;
+        }
+        .container {
+            width: auto;
+            margin: 0 auto;
+            min-height: 100%;
+        }
+
+        #portfolioconnect {
+            float: none;
+            margin-top: auto;
+        }
+
+        #indexconnect {
+            float: none;
+            margin-top: auto;
+        }
+
+
+        #contactconnect {
+            float: none;
+            margin-top: auto;
+        }
+        .contactfooter {
+            position: fixed;
+        }
+        .indexfooter {
+            position: fixed;
+        }
+        .portfoliofooter {
+            position: fixed;
+        }
